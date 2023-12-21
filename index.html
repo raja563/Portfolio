@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <nav>
+            <div class="logo">PRORTFO<span>LIO</span></div>
+<!-- navbar -->
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>  
+        </nav>
+        <!-- text  -->
+        <div class="text">
+            <p>Hello, I am </p>
+            <h1>Rajababu Maurya</h1>
+            <p>And I am a Full-Stack Developer</p>
+            <button class="c-btn">Hire Me</button>
+        </div>
+    </header>
+        <!-- about  -->
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who  i am ? </p>
+        </div>
+        <div class="about-row">
+        <div class="about-left-col">
+            <img src="images/raj.jpg" alt="">
+        </div>
+        <div class="about-right-col">
+            <p id="p-title">Hello , I'm Rajababu & I'm a Developer & Designer</p>
+            <p>I Rajababu maurya , i belong from shrawasti district and I'm Student of MCA(master of computer application) at Dr. A.P.J.K technical university ,lucknow. and i have completed my BCA(bachelor of computer Application) from Siddarth university ,kapilvastu. and i am Full-Stack Developer and i have also knowledge of other programming langueges like C Languege ,C++,java and some other topics like dbms ,networks etc..
+            </p>
+            <button class="c-btn">Resume</button>
+        </div>
+        </div>
+    </section>
+    <!-- skills  -->
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color: white;">Skill's</h1>
+            <p>Who  i am ? </p>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>I'm Full-Stack Developer and i have also knowledge of other programming langueges like C Languege ,C++,java and some other topics like dbms ,networks, cloud computing  etc..</p>
+                <button class="c-btn">Read More</button>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
+                    </p>
+                    <p>
+                        <span>JAVASCRIPT</span><br>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
+                    </p>
+                    <p>
+                        <span>REACT</span><br>
+                        <progress value="60" max="100"></progress>
+                        <span>60%</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- services  -->
+<section id="services">
+    <div class="section-info">
+        <h1>Services </h1>
+        <p>What We Provide ?</p>
+    </div> 
+
+    <div class="services-row">
+        <div class="services-box" data-tilt>
+            <img src="images/developer.png" alt="">
+            <h2>Front-End Development</h2>
+            <p>A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works.</p>
+        </div>
+
+        <div class="services-box" data-tilt>
+            <img src="images/developer.png" alt="">
+            <h2>Back-End Development</h2>
+            <p>Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic. </p>
+        </div>
+
+        <div class="services-box" data-tilt>
+            <img src="images/developer.png" alt="">
+            <h2>Java  Developer</h2>
+            <p>using Java and other programming languages and tools to develop applications, software, games, and more for computers and mobile devices. Many Java developers earn a bachelor's degree in computer science or a related field. Professional Java certification is available.</p>
+        </div>
+    </div>
+</section>
+<!-- contact  -->
+<section id="contact">
+    <div class="section-info" style="color: white;">
+        <h1>Get in Touch</h1>
+        <p style="color: white;">What are Avilable</p>
+    </div>
+    <div class="contact-row">
+        <div class="contact-left-col">
+            <img src="images/contact2.jpg" alt="">
+        </div>
+        <div class="contact-right-col">
+            <form action="">
+                <h2>Connect with Us</h2>
+                <input type="text" name="" placeholder="Name">
+                <input type="email" name="" placeholder="Email">
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <br>
+                <button class="c-btn">Submit</button>
+
+
+            </form>
+        </div>
+    </div>
+</section>
+<!-- footer  -->
+<section id="footer">
+<h2>Developed by Rajababu Maurya</h2>
+<img src="" alt="">
+</section>
+<!-- JAVASCRIPT  -->
+    <script src="js/index.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script>
+       jQuery(document).ready(function(){
+        $('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.02,
+
+});
+       });
+    </script>
+    <script src="js/tilt.jquery.min.js"></script>
+</body>
+</html>
