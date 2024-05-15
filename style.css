@@ -231,11 +231,12 @@ margin: auto;
 #footer{
     background: #233142;
     color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
     align-items: center;
     font-size: 20px;
+    text-align:center;
 
 }
 
