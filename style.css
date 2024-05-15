@@ -174,11 +174,13 @@ margin: auto;
     flex-wrap: wrap;
 }
 .services-box{
-    flex-basis: 25%;
-    text-align: center;
-    box-shadow: 2px 3px 5px gray;
+    flex-basis:25%;
+    box-shadow:2px 3px 5px gray;
     padding: 20px;
     margin-top: 20px;
+    text-align: justify;
+    height:420px;
+    text-align:center;
 }
 .services-box:hover{
     background: #155263;
@@ -186,7 +188,9 @@ margin: auto;
     transition:0.05s;
 }
 .services-box img{
-    width: 60%;
+    width:70%;
+    text-align:center;
+    
 }
 
 /* contact  */
